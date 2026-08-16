@@ -27,7 +27,9 @@
     {{- partial "header.html" . -}}
   </header>
   <main>
+    <div style="padding-top: 1px">
     {{- block "main" . }}{{- end }}
+    </div>
   </main>
   <footer>
     {{- partial "footer.html" . -}}
